@@ -1,0 +1,41 @@
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:wght@500&display=swap);
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+ body {
+ 	font-family: Courier
+ 	font-size: 18px;
+ 	margin: 0px;
+	background-color: #F5EEDC
+ }
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+}
+
+h2, h3 {
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+	margin: 10px;
+}
+
+h1, h2, h3 {
+	margin: 30px 150px 20px;
+}
+
+a{			
+	color:#826F66;
+	text-decoration: none;
+	font-weight: bold;
+	transition: color 0.3s ease;
+	font-size: 30px;
+	font-family: 'Playfair Display', serif;
+}
+	a:hover{
+		color:black;
+		font-weight: bold;
+	}
